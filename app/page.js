@@ -1,8 +1,8 @@
 "use client"
 import Image from "next/image";
-import '../app/globals.css';
+import "../app/globals.css";
 import { useState } from "react"; 
-import {data} from '../public/data.jpg';
+import {data} from "../public/data.jpg";
 
 export default function Home() {
     return(
@@ -29,7 +29,7 @@ export default function Home() {
                             </p>
                             <div className="flex justify-start w-[100%] md:w-[70%] mt-[32px]">
                                 <input className="w-[100%]" placeholder="Subscribe to our email newsletter"></input>
-                                <button style={{backgroundColor:'#F84646', color:'white',padding:'14px', width:'90px', borderRadius:'7px'}}>Confirm</button>
+                                <button className="bg-[#F84646] text-[#FFFFFF] p-[14px] w-[90px] rounded-[7px]" >Confirm</button>
                             </div>
                         </div>
                     </div>
@@ -46,34 +46,34 @@ export default function Home() {
                 </div>
                     <div className="w-[100%] md:w-[85%] flex flex-col md:flex-row md:p-[30px] justify-center content-center text-[18px]" style={{ border:'1px solid gray', }}>
                     <div className="flex flex-col w-[100%] md:w-1/3 p-[20px] items-center text-center">
-                        <Image src='./shopping-cart.svg' width={100} height={100} alt='shopping' className="p-[16px]"></Image>
+                        <Image src='./shopping-cart.svg' width={100} height={100} alt="shopping" className="p-[16px]"></Image>
                         <h3 className="text-[24px] font-extrabold" >User-Friendly Interface</h3>
                         <p className="mt-[5px]">We provide an intuitive and easy-to-use interface, allowing you to effortlessly manage your website content and functionality.</p>
                     </div>
                     <div className="flex flex-col w-[100%] md:w-1/3 p-[20px] items-center text-center">
-                        <Image src='./computer.svg' width={100} height={100} alt='computer' className="p-[16px]"></Image>
+                        <Image src='./computer.svg' width={100} height={100} alt="computer" className="p-[16px]"></Image>
                         <h3 className="text-[24px] font-extrabold">Customized Design</h3>
                         <p className="mt-[5px]">We tailor unique website designs based on your requirements and brand image, ensuring a perfect match with your brand style.</p>
                     </div>
                     <div className="flex flex-col w-[100%] md:w-1/3 p-[20px] items-center text-center">
-                        <Image src='./search-glass.svg' width={100} height={100} alt='search' className="p-[16px]"></Image>
+                        <Image src='./search-glass.svg' width={100} height={100} alt="search" className="p-[16px]"></Image>
                         <h3 className="text-[24px] font-extrabold">Responsive Layout</h3>
                         <p className="mt-[5px]">Our website designs feature responsive layouts that seamlessly adapt to various devices, providing users with a consistent browsing experience.</p>
                     </div>  
                 </div>
                 <div className="w-[100%] md:w-[85%] flex flex-col md:flex-row p-[20px] justify-start content-center text-[18px]" style={{ border:'1px solid gray', }}>
                     <div className="flex flex-col w-[100%] md:w-1/3 p-[20px] items-center  text-center">
-                        <Image src='./book.svg' width={100} height={100} alt='book' className="p-[16px]"></Image>
+                        <Image src='./book.svg' width={100} height={100} alt="book" className="p-[16px]"></Image>
                         <h3 className="text-[24px] font-extrabold">Powerful Functionality</h3>
                         <p className="mt-[5px]">We offer a wide range of functional modules to meet your diverse business needs, making your website functionality more robust.</p>
                     </div>
                     <div className="flex flex-col w-[100%] md:w-1/3 p-[20px] items-center text-center">
-                        <Image src='./calendar.svg' width={100} height={100} alt='calendar' className="p-[16px]"></Image>
+                        <Image src='./calendar.svg' width={100} height={100} alt="calendar" className="p-[16px]"></Image>
                         <h3 className="text-[24px] font-extrabold">Secure and Reliable</h3>
                         <p className="mt-[5px]">We employ advanced security technologies and measures to ensure the safety and reliability of your website data and user information, allowing you to use it with confidence.</p>
                     </div>
                     <div className="flex flex-col w-[100%] md:w-1/3 p-[20px] items-center text-center">
-                        <Image src='./lock.svg' width={100} height={100} alt='lock' className="p-[16px]"></Image>
+                        <Image src='./lock.svg' width={100} height={100} alt="lock" className="p-[16px]"></Image>
                         <h3 className="text-[24px] font-extrabold">Fast Deployment</h3>
                         <p className="mt-[5px]">With our efficient development team and processes, we can quickly respond to your needs, enabling your website to go live rapidly and gain a competitive edge.</p>
                     </div>  
@@ -83,7 +83,7 @@ export default function Home() {
             {/* 橘色流程??? */}
             <div className="bg-[#F84646] flex flex-col items-center p-[48px] text-white w-[100%]">
                 <div className="p-[20px] items-center text-center">
-                    <h1 className="text-[48px] text-extrabold">What's we offer for?</h1>
+                    <h1 className="text-[48px] text-extrabold">What&apos;s we offer for?</h1>
                     <p className="p-[10px]">IoT support</p>
                 </div>
                 <div className="flex flex-col md:flex-row items-center justify-center w-[80%] text-[18px]">
@@ -91,19 +91,19 @@ export default function Home() {
                     <p className="text-center">We customize solutions to fit your needs.</p>
                     </div>
                     <div className="flex justify-center p-[9px]">
-                    <Image src='./arrow-right.svg' width={32} height={32} alt='arrow'></Image>
+                    <Image src='./arrow-right.svg' width={32} height={32} alt="arrow"></Image>
                     </div>
                     <div className="flex justify-center p-[9px] md:w-1/3">
                     <p className="text-center">Experienced professionals lead project management and testing.</p>
                     </div>
                     <div className="flex justify-center p-[9px]">
-                    <Image src='./arrow-right.svg' width={32} height={32} alt='arrow'></Image>
+                    <Image src='./arrow-right.svg' width={32} height={32} alt="arrow"></Image>
                     </div>
                     <div className="flex justify-center p-[9px] md:w-1/3">
                     <p className="text-center">We ensure high-quality standards.</p>
                     </div>
                     <div className="flex justify-center p-[9px] ">
-                    <Image src='/arrow-right.svg' width={32} height={32} alt='arrow'></Image>
+                    <Image src='/arrow-right.svg' width={32} height={32} alt="arrow"></Image>
                     </div>
                     <div className="flex justify-center p-[9px] md:w-1/3">
                     <p className="text-center">We work closely with you for ongoing improvement.</p>
