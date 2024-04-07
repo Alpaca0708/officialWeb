@@ -111,27 +111,34 @@ export default function Home() {
                 </div>
             </div>
             {/* 公司介紹圖片??? */}
-            <div className="">
-                <div className=" flex flex-col md:flex-row justify-around">
-                    <div className="max-w-[335px] md:max-w-[540px] min-h-[312px] md:min-h-[480px]  bg-[url('/data.jpg')] bg-cover bg-center flex items-center justify-center rounded-[8px] p-[15px] justify-center">
-                        {/* <Image src='/data.jpg' width={300} height={300} alt='data'></Image> */}
+            <div className="flex flex-col md:items-center">
+                <div className=" flex flex-col md:flex-row p-[10px]">
+                    <div className="p-[15px]">
+                        <div className="min-w-[335px] md:max-w-[50%] min-h-[312px] md:min-h-[480px] bg-[url('/data.jpg')] bg-cover bg-center flex items-center justify-center rounded-[8px] justify-center">
+                            {/* <Image src='/data.jpg' width={300} height={300} alt='data'></Image> */}
+                        </div>
                     </div>
-                    <div className="w-[100%] p-[15px]">
+                    <div className="w-[100%] md:w-[50%] p-[15px] text-center">
                         <h1>Quality and process management</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <button className="w-[100%] bg-[#F84646] text-[#FFFFFF] p-[5px] rounded-[8px]">Explore</button>
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div className=" flex flex-col md:flex-row p-[10px]">
+                    <div className="w-[100%] md:w-[50%] p-[15px] text-center">
                         <h1>Quality and process management</h1>
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <button className="w-[100%] bg-[#F84646] text-[#FFFFFF] p-[5px] rounded-[8px]">Explore</button>
                     </div>
-                    <div className="min-w-[335px] md:min-w-[540px] min-h-[312px] md:min-h-[480px]  bg-[url('/discuss.jpg')] bg-cover bg-center flex items-center justify-center">
-
+                    <div className="p-[15px]">
+                        <div className="min-w-[335px] md:max-w-[540px] min-h-[312px] md:min-h-[480px] bg-[url('/discuss.jpg')]  bg-cover bg-center flex items-center justify-center rounded-[8px] justify-center">
+                        </div>
                     </div>
                 </div>
+            </div>
+
+            <div>
+                aldinvgrinvofrb
             </div>
             
 
